@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="non game code">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="game code">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game code\game states">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="state_buystock.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_cursor.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_endgame.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_mergeoptions.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_mergerresolution.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_pickcontrollingcompany.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_pickunplacedcompany.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="state_placetile.cpp">
+      <Filter>game code\game states</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="companyselector.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="tilegroup.cpp">
+      <Filter>game code</Filter>
+    </ClCompile>
+    <ClCompile Include="cli.cpp">
+      <Filter>non game code</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>non game code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="state_buystock.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_cursor.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_endgame.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_mergeoptions.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_mergerresolution.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_pickcontrollingcompany.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_pickunplacedcompany.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="state_placetile.h">
+      <Filter>game code\game states</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>non game code</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>non game code</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="companySelector.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>non game code</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="stock.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="tilegroup.h">
+      <Filter>game code</Filter>
+    </ClInclude>
+    <ClInclude Include="cli.h">
+      <Filter>non game code</Filter>
+    </ClInclude>
+    <ClInclude Include="clibuffer.h">
+      <Filter>non game code</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>non game code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
